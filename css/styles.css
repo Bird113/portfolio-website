@@ -266,6 +266,16 @@ table{
 
 
 /* @media css*/
+@media all and (min-width:2080px){
+    body{
+        zoom: 2.5
+
+    }
+
+}
+
+
+
 @media all and (max-width:500px){
     .project-list{
         grid-template-columns: 1fr;
@@ -313,7 +323,7 @@ table{
         width: 50%;
     }
     form{
-        width: 75%;
+        width: 95%;
         
     }
       
