@@ -336,6 +336,16 @@ table{
 
 
 /* @media css*/
+@media all and (min-width:2080px){
+    body{
+        zoom: 2.5
+
+    }
+
+}
+
+
+
 @media all and (max-width:500px){
     .project-list{
         -ms-grid-columns: 1fr;
