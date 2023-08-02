@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gloock&family=IBM+Plex+Sans:wght@100&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
@@ -43,41 +43,26 @@
     <div>
       <h1>Contact</h1>
     </div>
-    <div>
-      ALBERTO BARRUETA<br>
+    <div class="contact_table">
+      <p>You can contact me by clicking on my links bellow or 
+        <br>you can email me at 
+        <br>barruetaalberto@yahoo.com
+      </p>
       <br>
-      <a href="tel:+9498138939"> Tel: 9498138939</a><br>
-      <a href="mailto:barruetaalberto@yahoo.com">Email: barruetaalberto@yahoo.com</a>
+      <a href="tel:+9498138939" class="button_index"> Tel: 9498138939</a>
+      <a href="mailto:barruetaalberto@yahoo.com" class="button_index">Email: barruetaalberto@yahoo.com</a>
+      <a href="mailto:barruetaalberto@yahoo.com" class="button_index">Contact me</a>
     </div>
-    <div>
-      <a href="mailto:barruetaalberto@yahoo.com">Contact me</a>
-    </div>
-    <form action="/action_page.php" method="post" id="contact-form">
-      <div class="form-section">
-        <label class="standard-label" for="contact-email">E-mail: </label>
-        <input type="email" id="contact-email" required>
-      </div>
-      <div class="form-section-tel">
-        <label class="standard-label" for="contact-tel">Telephone: </label>
-        <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-      </div>
-      <div class="form-section">
-        <label class="standard-label" for="my-input">Message: </label>
-        <textarea maxlength="240" id="my-input" required></textarea>
-        <br>
-        <input type="submit" value="Send Message">
-      </div>
-    </form>
   </main>
   <footer class="page-footer">
     <p>Find me on</p>
     <div class="social-media">
-      <img src="img/211904_social_github_icon.svg" alt="Github">
-      <img src="img/3225191_app_instagram_logo_media_popular_icon.svg" alt="Instagram">
-      <img src="img/317750_linkedin_icon.svg" alt="LinkedIn">
+      <a target="_blank" href="#"><img src="img/211904_social_github_icon.svg" alt="Github"></a>
+      <a target="_blank" href="https://www.instagram.com/albert.uwu.o/"><img
+          src="img/3225191_app_instagram_logo_media_popular_icon.svg" alt="Instagram"></a>
+      <a target="_blank" href="#"><img src="img/317750_linkedin_icon.svg" alt="LinkedIn"></a>
     </div>
   </footer>
-  <script src="js/tota11y.min.js"></script>
 </body>
 
 </html>
