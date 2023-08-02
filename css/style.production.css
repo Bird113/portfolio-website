@@ -16,18 +16,14 @@
 }
 
 
-form {
+.contact_table {
     display: -ms-grid;
     display: grid;
-    gap: 2rem;
-    color: white;
-    background-color: #832121;
-    border: 3px solid rgba(0,0,0,1);
-    margin-bottom: 50px;
-    margin-top: 0;
     margin-right: auto;
     margin-left: auto;
-    width: 35%;
+    
+    clear: both;
+    text-align: center;
   }
 
 body {
